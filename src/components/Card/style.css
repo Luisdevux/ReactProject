@@ -1,0 +1,46 @@
+.card-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    margin: 4px;
+}
+
+.card {
+    border: 1px solid #50aa5a;
+    border-radius: 20px;
+    max-width: 387px;
+}
+
+.card-titulo {
+    display: flex;;
+    justify-content: center;
+}
+
+.card-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+}
+
+.card-texto {
+    display: flex;
+    padding: 19px ;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-link { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #50aa5a;
+    text-decoration: none;
+    height: 44px;
+    width: 387px;
+    border-radius: 0 0 20px 20px;
+}
